@@ -1,4 +1,4 @@
-# The Extended Kalman Filter
+# The Unscented Kalman Filter
 
 This is a C++ implementation of the Unscented Kalman Filter. Dummy data for the project is located inside data/obj_pose-laser-radar-synthetic-input.txt. The columns in the data file represent sensor_type, rho_measured, phi_measured, rhodot_measured, timestamp, x_groundtruth, y_groundtruth, vx_groundtruth, vy_groundtruth, yaw_groundtruth, yawrate_groundtruth in that order for Radar data. The columns represent sensor_type, x_measured, y_measured, timestamp, x_groundtruth, y_groundtruth, vx_groundtruth, vy_groundtruth, yaw_groundtruth, yawrate_groundtruth in that order for LiDAR data.
 
